@@ -14,7 +14,7 @@ LAN(config-if)#ip nat outside
 LAN(config)#interface FastEthernet 0/1
 LAN(config-if)#ip nat inside
 
-3. Static NAT
+2. Static NAT
 Static NAT mappings
 DAT(config)#ip nat inside source static 192.168.100.1 15.0.0.11
 DAT(config)#ip nat inside source static 192.168.100.12 15.0.0.12
